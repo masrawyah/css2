@@ -1,0 +1,80 @@
+# css2
+/* Variable definitions
+   ====================
+   <Variable name="bgcolor" description="Page Background Color"
+             type="color" default="#fff" value="#ffffff">
+   <Variable name="textcolor" description="Text Color"
+             type="color" default="#333" value="#333333">
+   <Variable name="linkcolor" description="Link Color"
+             type="color" default="#58a" value="#5588aa">
+   <Variable name="pagetitlecolor" description="Blog Title Color"
+             type="color" default="#666" value="#666666">
+   <Variable name="descriptioncolor" description="Blog Description Color"
+             type="color" default="#999" value="#999999">
+   <Variable name="titlecolor" description="Post Title Color"
+             type="color" default="#c60" value="#cc6600">
+   <Variable name="bordercolor" description="Border Color"
+             type="color" default="#ccc" value="#cccccc">
+   <Variable name="sidebarcolor" description="Sidebar Title Color"
+             type="color" default="#999" value="#999999">
+   <Variable name="sidebartextcolor" description="Sidebar Text Color"
+             type="color" default="#666" value="#666666">
+   <Variable name="visitedlinkcolor" description="Visited Link Color"
+             type="color" default="#999" value="#999999">
+   <Variable name="bodyfont" description="Text Font"
+             type="font" default="normal normal 100% Georgia, Serif" value="normal normal 100% Georgia, Serif">
+   <Variable name="headerfont" description="Sidebar Title Font"
+             type="font"
+             default="normal normal 78% 'Trebuchet MS',Trebuchet,Arial,Verdana,Sans-serif" value="normal normal 78% &#39;Trebuchet MS&#39;,Trebuchet,Arial,Verdana,Sans-serif">
+   <Variable name="pagetitlefont" description="Blog Title Font"
+             type="font"
+             default="normal normal 200% Georgia, Serif" value="normal normal 200% Georgia, Serif">
+   <Variable name="descriptionfont" description="Blog Description Font"
+             type="font"
+             default="normal normal 78% 'Trebuchet MS', Trebuchet, Arial, Verdana, Sans-serif" value="normal normal 78% &#39;Trebuchet MS&#39;, Trebuchet, Arial, Verdana, Sans-serif">
+   <Variable name="postfooterfont" description="Post Footer Font"
+             type="font"
+             default="normal normal 78% 'Trebuchet MS', Trebuchet, Arial, Verdana, Sans-serif" value="normal normal 78% &#39;Trebuchet MS&#39;, Trebuchet, Arial, Verdana, Sans-serif">
+   <Variable name="startSide" description="Side where text starts in blog language"
+             type="automatic" default="right">
+   <Variable name="endSide" description="Side where text ends in blog language"
+             type="automatic" default="left">
+*/
+
+/* Use this with templates/template-twocol.html */
+
+ img {
+	max-width: 100%;
+	height: auto;
+	width: auto\9; /* ie8 */
+}
+
+@media only screen and (max-device-width: 480px) {
+
+	}
+ 
+.label-size a {
+padding: 8px 10px;
+border:1px solid #e9e9e9;
+background:#F7F7F7;
+text-shadow:0 1px 0 white;
+-webkit-transition-duration:.3s;
+-moz-transition-duration:.3s;
+-moz-box-shadow:inset 0 0 2px #fff,0 0 2px rgba(0,0,0,0.1);
+-webkit-box-shadow:inset 0 0 2px white,0 0 2px rgba(0,0,0,0.1);
+box-shadow:inset 0 0 2px white,0 0 2px rgba(0,0,0,0.1);
+display:inline-block;
+font-family: Droid Sans, sans-serif;
+font-style: normal;
+font-size: 8pt;
+float: left;
+margin: 1px;
+}
+.label-size a:hover {
+background:#ededed;
+}
+
+#related-posts img {
+height:150px !important;
+width:150px !important;
+}
